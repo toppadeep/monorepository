@@ -1,0 +1,22 @@
+# core
+fastapi
+uvicorn[standard]
+
+# config
+pydantic-settings
+python-dotenv
+
+# database
+sqlalchemy
+asyncpg
+alembic
+
+# http client
+httpx
+
+# dev
+black
+ruff
+mypy
+pytest
+pytest-asyncio
