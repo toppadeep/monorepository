@@ -9,7 +9,9 @@
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --build --force",
-    "lint": "eslint . --fix"
+    "lint": "eslint . --fix",
+    "lint:fix": "eslint . --ext .js,.ts,.vue --fix",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@fontsource/roboto": "5.2.7",
@@ -27,6 +29,7 @@
     "eslint": "^9.35.0",
     "eslint-config-vuetify": "^4.2.0",
     "npm-run-all2": "^8.0.4",
+    "prettier": "^3.7.4",
     "sass-embedded": "^1.92.1",
     "typescript": "~5.9.2",
     "unplugin-fonts": "^1.4.0",
