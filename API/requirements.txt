@@ -5,11 +5,13 @@ uvicorn[standard]
 # config
 pydantic-settings
 python-dotenv
+pydantic[email]
 
 # database
 sqlalchemy
 asyncpg
 alembic
+greenlet
 
 # http client
 httpx
