@@ -1,11 +1,11 @@
 <template>
   <v-app>
     <v-main>
-      <user-list />
+      <router-view />
     </v-main>
   </v-app>
 </template>
 
 <script lang="ts" setup>
-import UserList from './components/UserList.vue';
+//
 </script>
